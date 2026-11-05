@@ -53,9 +53,6 @@ Este proyecto aplica **aprendizaje no supervisado** para segmentar a **8 950 tit
 | :--- | :--- |
 | `*.ipynb` | Notebook en español, organizado en 8 secciones: configuración, calidad de datos, EDA, preprocesamiento + PCA, K-Means, DBSCAN, perfilado comercial y conclusiones. |
 | `CC_GENERAL.csv` | Resumen del uso de la tarjeta por titular. El notebook lo lee como `CC GENERAL.csv` (con espacio); ver [Cómo Ejecutar](#-cómo-ejecutar-el-proyecto). |
-| `resumen_profiling_clusters.csv` | Medianas por segmento, tamaño y peso en la cartera. Lo exporta el propio notebook. |
-| `requirements.txt` | Librerías necesarias para reproducir el análisis. |
-
 ---
 
 ## 📊 Dataset y Fuentes de Datos
