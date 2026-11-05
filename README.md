@@ -3,18 +3,6 @@
 # 💳 Segmentación de Clientes y Perfilado de Riesgo Financiero
 ### K-Means + PCA vs. DBSCAN sobre una cartera de 8 950 tarjetas de crédito
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical-013243?logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?logo=scikitlearn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Viz-3F4F75?logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-EDA-4C72B0)
-![ML](https://img.shields.io/badge/Machine%20Learning-Unsupervised-success)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
-</div>
-
 ---
 
 ## 📑 Tabla de Contenidos
@@ -58,9 +46,6 @@ Este proyecto aplica **aprendizaje no supervisado** para segmentar a **8 950 tit
 .
 ├── Customer_Segmentation___Financial_Risk_Profiling_K-Means___PCA_vs__DBSCAN.ipynb   # Análisis completo (EDA → modelado → perfilado)
 ├── CC_GENERAL.csv                       # Dataset de entrada (8 950 clientes × 18 columnas)
-├── resumen_profiling_clusters.csv       # Salida: tabla de perfilado por clúster (se genera al ejecutar el notebook)
-├── requirements.txt                     # Dependencias del proyecto
-├── LICENSE                              # Licencia
 └── README.md                            # Este documento
 ```
 
