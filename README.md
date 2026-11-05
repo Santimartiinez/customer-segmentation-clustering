@@ -259,18 +259,6 @@ Ejecuta **Kernel → Restart & Run All**. Al finalizar se genera `resumen_profil
 - Justificación técnica documentada de cada decisión (imputación, `log1p`, escalado, PCA, elección de K y descarte de DBSCAN).
 - Honestidad metodológica: limitaciones y supuestos declarados explícitamente (foto estática, ausencia de *ground truth*, perfiles por mediana).
 
-### Mejoras futuras
-
-| Prioridad | Mejora | Motivo |
-| :---: | :--- | :--- |
-| 🔴 | Aplicar el truncado de `CASH_ADVANCE_FREQUENCY` **antes** de la transformación y el escalado | Hoy se aplica tras generar el espacio PCA, por lo que no afecta al entrenamiento |
-| 🔴 | Unificar la estimación de ε con el ajuste de DBSCAN | El gráfico *k-distance* incluye la columna de etiquetas de K-Means; el ajuste final no |
-| 🟠 | Comparar K-Means con **Gaussian Mixture Models**, **clustering jerárquico** o **K-Prototypes** | Probar fronteras no esféricas y asignaciones probabilísticas |
-| 🟠 | Estudiar la sensibilidad de DBSCAN a `eps` y `min_samples`; usar **HDBSCAN** | Un ε menor podría fragmentar la masa densa |
-| 🟠 | Validar estabilidad con *bootstrap* y **ARI** entre ejecuciones | Cuantificar la robustez de los segmentos |
-| 🟡 | Incorporar la dimensión temporal | Analizar migración entre segmentos y evolución del riesgo |
-| 🟡 | Convertir el modelo en un *pipeline* de `scikit-learn` desplegable (API o *dashboard*) | Llevar la segmentación a producción |
-
 ---
 
 ## 👤 Contacto / Autor
