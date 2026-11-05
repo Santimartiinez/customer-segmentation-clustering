@@ -275,11 +275,7 @@ Ejecuta **Kernel → Restart & Run All**. Al finalizar se genera `resumen_profil
 
 ## 👤 Contacto / Autor
 
-**Tu Nombre** — Data Scientist
-
-[![GitHub](https://img.shields.io/badge/GitHub-TU__USUARIO-181717?logo=github&logoColor=white)](https://github.com/TU_USUARIO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tu%20Perfil-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU_PERFIL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-tu--sitio.com-FF5722?logo=googlechrome&logoColor=white)](https://tu-sitio.com)
+**Santiago Martínez Granda** — Data Scientist
 
 ---
 
