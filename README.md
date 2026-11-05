@@ -2,7 +2,7 @@
 
 # 💳 Segmentación de Clientes y Perfilado de Riesgo Financiero
 ### K-Means + PCA vs. DBSCAN sobre una cartera de 8 950 tarjetas de crédito
-
+<div>    
 ---
 
 ## 📑 Tabla de Contenidos
